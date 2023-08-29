@@ -1,0 +1,172 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #770b7b;
+	background-color: #770b7b;
+	margin: 10px;
+	padding: 10px;
+}
+header {
+	background-color: #770b7b;
+	color: #0a0908;
+	padding: 5px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li {
+	float: left;
+}
+nav a {
+	display: block;
+	color: #0a0908;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav a:hover {
+  border-radius: 30px;
+	background-color: #ddd;
+	color: #770b7b;
+  border: 4px solid #ddd;
+}
+main {
+	padding: 20px;
+}
+section {
+	margin-bottom: 30px;
+}
+footer {
+	background-color: #770b7b;
+	color: #0a0908;
+	padding: 20px;
+	text-align: center;
+}
+
+.bn {
+  text-align: center;
+  color: black;
+}
+
+.hero{
+   text-align: center;
+}
+
+.hero h1{
+  font-size: 160px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.hero a{
+  margin-top: 20px;
+  border: 2px solid #000000;
+  padding: 20px 90px;
+  flex: flex;
+  justify-content:center;
+  text-decoration: none;
+  display: inline-block;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  transform: translate(-35%, -60%);
+  border-radius: 50px;
+}
+
+.M1 {
+  width: 1469px;
+  flex-direction: column;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #770b7b;
+	background-color: #770b7b;
+	margin: 10px;
+	padding: 10px;
+  background-image: url('./page.jpg');
+  background-repeat: no-repeat;
+}
+
+/* .bake-video {
+  position: absolute;
+  right: 0;
+  width: 1450px;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+} */
+.g1 {
+  bottom: 0;
+}
+
+
+.sv {
+    text-align: center;
+}
+
+.sv h1 {
+   font-size: 160px;
+  color: #fff;
+  font-weight: 600;
+}
+
+
+
+.sv a {
+  margin-top: 20px;
+  border: 2px solid #fff;
+  padding: 14px 70px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 50px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  video {
+    max-width: 100%;
+    height: 59%;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
